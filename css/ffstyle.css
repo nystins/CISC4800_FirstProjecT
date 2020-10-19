@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding:0;
+    min-height: 100%;
+    margin: 0 auto;
+    background-image: url("../img/cool-background.png");
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body h1{
+    text-align:center;
+    text-decoration:underline;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 15px;
+    text-align:center;    
+}
+
+.navbar{
+    overflow:hidden;
+    background-color:black;
+}
+.navbar a{
+    float: right;
+    color:white;
+    text-align:center;
+    padding: 9px;
+    text-decoration:none;
+    font-size:14px;
+}
+footer{
+    width:100%;
+    box-sizing:border-box;
+    line-height: 1.2em;
+    text-align:center;
+    padding:30px;
+    background-color:lightgrey;
+}
